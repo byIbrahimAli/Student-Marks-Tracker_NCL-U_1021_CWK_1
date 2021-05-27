@@ -1,5 +1,5 @@
 /**
- * Student No: 150311564
+ * Student No: 
  *
  * @author IbrahimAli Date: 5th November 2015
  */
@@ -27,7 +27,7 @@ public class Summary {
             list[i][0] = in.nextInt(); // Exam mark
             System.out.println("Enter coursework mark");
             list[i][1] = in.nextInt(); // Coursework mark
-            
+
             //Validation
             if (list[i][0]>100 || list[i][0]<0){
                 System.out.println("Do not exceed 100 marks or go below 0 marks");

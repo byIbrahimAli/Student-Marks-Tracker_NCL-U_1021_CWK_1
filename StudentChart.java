@@ -1,5 +1,5 @@
 /**
- * Student No: 150311564
+ * Student No: 
  *
  * @author IbrahimAli Date: 5th November 2015
  */
@@ -55,11 +55,11 @@ public class StudentChart {
     public StudentChart(int[][] list) {
         draw(list);
     }
-    
+
     //Print Summary
     public void printSummary(String[] moduleName, int[][] list){
         int[] modMarks = MarkCalculator.computeMarks(list);
-        
+
         //Print table
         for (int i=0; i<6; i++){
             System.out.format("%15.15s|%5d\n", moduleName[i], modMarks[i]);
